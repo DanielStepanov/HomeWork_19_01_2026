@@ -1,0 +1,13 @@
+
+print("Enter a number")
+prevnumber: int = int(input())
+
+print("Enter another number")
+currentnumber: int = int(input())
+
+while prevnumber != currentnumber:
+    prevnumber = currentnumber
+    print("Enter another number")
+    currentnumber = int(input())
+
+print("Good job buddy, You got this")
