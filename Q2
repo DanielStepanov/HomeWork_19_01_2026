@@ -1,0 +1,23 @@
+
+print("What's Dannis grade?")
+dgrade: int = int(input())
+
+while dgrade > 100 or dgrade < 0:
+    print("Please enter a valid grade.")
+    dgrade = int(input())
+
+max_grade: int = dgrade
+
+print("Enter another grade")
+
+grade: int = int(input())
+
+while 0 <= grade <=100:
+    if grade > max_grade:
+        max_grade = grade
+    grade = int(input())
+
+if max_grade == dgrade:
+    print("Danni got the highest score.")
+else:
+    print("Danni hasnt got the highest score.")
