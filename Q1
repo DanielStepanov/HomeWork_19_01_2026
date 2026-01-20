@@ -1,0 +1,10 @@
+
+height: int = int(input("enter the height: "))
+while height <= 0:
+    print("Invalid input, must be positive")
+    height = int(input())
+base: int = int(input("enter the base: "))
+while base <= 0 :
+    print("Invalid input, must be positive")
+    base = int(input())
+print("the area is: ", (base * height)/2)
