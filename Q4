@@ -1,0 +1,14 @@
+
+print("Enter the value of the first side of the triangle")
+firstSide = int(input())
+print("Enter the value of the second side of the triangle")
+secondSide = int(input())
+print("Enter the value of the third side of the triangle")
+thirdSide = int(input())
+
+if firstSide == secondSide and secondSide == thirdSide:
+    print("The triangle is equilateral")
+elif (firstSide == secondSide or secondSide == thirdSide or firstSide == thirdSide):
+    print("The triangle is isosceles")
+else:
+    print("Its nor isosceles or equilateral")
