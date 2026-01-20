@@ -1,0 +1,12 @@
+
+print("How many guests will arrive?")
+
+guests: int = int(input())
+
+full: int = guests // 4
+remaining: int = guests % 4
+
+if remaining == 0:
+    print("there will be", full, " full rooms")
+else:
+    print("there will be", full, " full rooms, and", remaining, "guests in another room")
